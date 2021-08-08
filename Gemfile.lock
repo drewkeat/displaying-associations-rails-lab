@@ -58,6 +58,8 @@ GEM
     diff-lcs (1.4.4)
     erubis (2.7.0)
     execjs (2.8.1)
+    faker (2.18.0)
+      i18n (>= 1.6, < 2)
     ffi (1.15.3)
     globalid (0.5.2)
       activesupport (>= 5.0)
@@ -173,6 +175,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   capybara
+  faker
   jbuilder (~> 2.0)
   pry
   rails (= 5.0.7.1)
